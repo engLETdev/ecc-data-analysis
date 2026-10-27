@@ -1,0 +1,10 @@
+schema_version = 1
+
+[project]
+name = "data-analysis"
+
+# Both paths resolve relative to this TOML file, not the current directory.
+# Keep the manifest outside raw_dir so it cannot be registered as source data.
+[storage]
+raw_dir = "../data/raw"
+manifest = "../data/manifests/sources.json"

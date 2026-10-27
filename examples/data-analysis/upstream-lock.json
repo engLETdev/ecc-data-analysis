@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/affaan-m/ECC",
+  "commit": "25278e7d7b6cf6e6a4e7a6c8e10f14ff22f0eb5b",
+  "version": "2.2.3",
+  "purpose": "Versioned engineering reference, not a runtime analytics dependency.",
+  "references": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "63f61dcfaa2c9ff64c563edc939e60bd0493d1ac337bd91c0d36d9e2ff724718",
+      "use": "project engineering and review requirements"
+    },
+    {
+      "path": ".codex/AGENTS.md",
+      "sha256": "fd6bcd91b734015ffac01d5e65d41421c84f941968f688c869c7997ca0cb4e30",
+      "use": "Codex-specific reference guidance; current configuration must be checked independently"
+    },
+    {
+      "path": "skills/python-patterns/SKILL.md",
+      "sha256": "103e0130dac33a49d26705fc5a2df804980fcab6a0138d65bc7f370a987d49f6",
+      "use": "typed src-layout Python modules and explicit error handling"
+    },
+    {
+      "path": "skills/python-testing/SKILL.md",
+      "sha256": "8f8c24020abbf953727c5995abce8aabeb28d2a593cbc39b7e5de36cf5002abd",
+      "use": "test-first development and pytest coverage"
+    },
+    {
+      "path": "skills/data-throughput-accelerator/SKILL.md",
+      "sha256": "59e98c2c2871627ee42984a1509da0d2c3e92d80b10b04d4f93338e5e0c9b0d6",
+      "use": "source accounting and idempotence principles; no throughput claims yet"
+    },
+    {
+      "path": "skills/mle-workflow/SKILL.md",
+      "sha256": "2497888dd543ca7bdf5d0cb4d90fce023eb2c1c14f860f0af8e8be42423131b4",
+      "use": "data contracts and reproducibility principles; no ML implementation"
+    },
+    {
+      "path": "skills/dashboard-builder/SKILL.md",
+      "sha256": "6823d9984c060597a312b867c317e0969e1cb0a2dec19730ce944fe789f41d38",
+      "use": "future dashboard reference; no dashboard implementation in this foundation"
+    },
+    {
+      "path": "rules/python/coding-style.md",
+      "sha256": "f9d6d7a39c5f5ea809579fecac591f390fa9264c088c7e209d464d5244747003",
+      "use": "Python coding conventions; Ruff used by the isolated package"
+    },
+    {
+      "path": "rules/python/testing.md",
+      "sha256": "92655aa5047ee456501ad6605c428680bac6433965f89ce531fe79627004e8c6",
+      "use": "pytest test organization"
+    },
+    {
+      "path": "docs/CODEX-NAVIGATION-GUIDE.md",
+      "sha256": "f1d0d2985edbe993d6b605c06138496422ae1b68d0e1d076a0a38c914dea8047",
+      "use": "repository navigation and scoped review"
+    }
+  ]
+}

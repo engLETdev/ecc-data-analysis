@@ -1,0 +1,16 @@
+# Original datasets, source manifests, locks and analysis outputs are local.
+/data/
+/config/project.toml
+/.venv/
+/.pytest_cache/
+/.ruff_cache/
+/.coverage
+/.coverage.*
+/htmlcov/
+/coverage.xml
+/reports/
+/build/
+/dist/
+*.egg-info/
+__pycache__/
+*.py[cod]

@@ -1,0 +1,10 @@
+# Linux development/CI dependencies resolved on 2026-10-26.
+# Direct tools match [project.optional-dependencies].dev.
+coverage==7.17.0
+iniconfig==2.3.1
+packaging==26.3
+pluggy==1.7.0
+Pygments==2.21.0
+pytest==9.1.1
+pytest-cov==7.1.0
+ruff==0.17.2
